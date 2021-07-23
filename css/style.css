@@ -1,0 +1,119 @@
+body {
+        direction: rtl !important;
+        font-family: 'Cairo', sans-serif;
+}
+
+* {
+        margin: 0 !important;
+        padding: 0 !important;
+        box-sizing: border-box;
+}
+
+a {
+        text-decoration: none !important;
+        color: #000 !important;
+}
+
+/************* icon ************/
+.icon {
+        font-size: 25px;
+}
+
+/************* souq **************/
+.soqe {
+        width: 9% !important;
+}
+
+.soqe h1 {
+        font-size: 50px !important;
+}
+
+.soqe span {
+        font-weight: 400;
+        font-size: 12px;
+}
+
+.search {
+        width: 70% !important;
+}
+
+/************* button drop *************/
+#btnGroupDrop1 {
+        border: none;
+        font-size: 15px;
+}
+
+/************* shopping *************/
+.shopping::after {
+        content: "العربي";
+}
+
+/************* جميع الفئات *************/
+.under-nav {
+        background-color: #E8EBEE;
+}
+
+.under-nav p:hover {
+        background-color: #fff !important;
+        border-top: 2px solid #067DFF;
+        cursor: pointer;
+}
+
+/*************** عرض العيد ***********/
+.eid {
+        border: 1px solid #E8EBEE;
+        border-bottom: 4px solid #E8EBEE;
+}
+
+.img1 {
+        width: 49%;
+}
+
+/*************** تقسيييط *************/
+.images-3 {
+        background-color: #E8EBEE;
+}
+
+/***************** الادوات ***************/
+.sefty{
+        width: 15%;
+        border: 1px solid #E8EBEE;
+}
+.sefty img{
+        height: 120px !important;
+}
+.sefty span{
+        font-weight: 700;
+}
+/***************** المساعده ***************/
+.fa-twitter{
+        color: #56ACEF;
+        font-size: 25px;
+}
+.fa-facebook-square{
+        color: #45629e;
+        font-size: 25px;
+}
+.fa-google-plus{
+        color: #DB4437;
+        font-size: 25px;
+}
+.fa-youtube-square{
+        color:#C0171C;
+        font-size: 25px;
+}
+.fa-instagram{
+        color: #1C7BCF;
+        font-size: 25px;
+}
+.fa-pinterest{
+        color: #CB2026;
+        font-size: 25px;
+}
+.fa-google-play,
+.fa-apple
+{
+        color: #1485CF;
+        font-size: 25px;
+}
+
